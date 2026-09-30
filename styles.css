@@ -186,3 +186,19 @@ body{
     font-size: larger;
     line-height: 15px;
 }
+
+.get-cat-banner button{
+    margin-right: 100px;
+    font-size: 25px;
+    padding: 8px 60px 8px 60px;
+    border: solid white 3px;
+    background-color: #025ceebe;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.get-cat-banner button:hover{
+    background-color: #024ec9f6;
+    cursor: pointer;
+}
