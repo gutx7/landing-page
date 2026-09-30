@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.hero-section{
+    background-color: #1F2937;
+    height: 580px;
+}
+
+.header{
+    display: flex;
+    height: 150px;
+}
+
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-top: 0;
+    flex: 1;
+}
+
+.links{
+    flex: 1;
+}
