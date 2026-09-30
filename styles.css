@@ -27,6 +27,10 @@ body{
     margin: 0;
 }
 
+.header-logo:hover{
+    cursor: pointer;
+}
+
 .links-container{
     flex: 1;
     display: flex;
@@ -51,6 +55,10 @@ body{
     text-decoration: none;
 }
 
+.header-link a:hover{
+    text-decoration: underline;
+}
+
 .hero-section-main{
     display: flex;
     margin-top: 80px;
@@ -58,8 +66,39 @@ body{
 
 .description{
     display: inline-block;
+    width: 450px;
+    margin-left: 270px;
+}
+
+.description h1{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.description p{
+    color: rgba(247, 247, 247, 0.671);
+    font-size: 18px;
+    margin-top: 0;
 }
 
 .cats-banner{
     display: inline-block;
+    margin-left: 100px;
+}
+
+.description button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 8px 33px 8px 33px;
+}
+
+.description button:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+    background-color: #025dee;
+    cursor: pointer;
 }
