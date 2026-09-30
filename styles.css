@@ -10,12 +10,14 @@ body{
 
 .header{
     display: flex;
+    height: 60px;
 }
 
 .header-logo-container{
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .header-logo{
@@ -27,5 +29,6 @@ body{
 .links-container{
     flex: 1;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
