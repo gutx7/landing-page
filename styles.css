@@ -92,7 +92,7 @@ body{
     background-color: #3882F6;
     border-radius: 8px;
     border: none;
-    color: white;
+    color: #F9FAF8;
     font-weight: 600;
     font-size: 20px;
     padding: 8px 33px 8px 33px;
@@ -164,4 +164,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.get-cat-banner{
+    height: 180px;
+    flex: 1;
+    margin: 10px 200px 10px 200px;
+    background-color: #025ceed5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.get-cat-banner div{
+    margin-left: 100px;
+}
+
+.listing-writing{
+    color: #F9FAF8;
+    font-size: larger;
+    line-height: 15px;
 }
