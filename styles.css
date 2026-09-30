@@ -10,7 +10,7 @@ body{
 
 .header{
     display: flex;
-    height: 60px;
+    height: 70px;
 }
 
 .header-logo-container{
@@ -31,4 +31,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.links {
+    width: 500px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.header-link{
+    display: inline-block;
 }
