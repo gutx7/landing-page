@@ -137,3 +137,25 @@ body{
 .cat-imgs-div p{
     text-align: center;
 }
+
+.quote-section{
+    background-color: #E5E7EB;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-section p span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
