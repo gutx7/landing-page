@@ -202,3 +202,16 @@ body{
     background-color: #024ec9f6;
     cursor: pointer;
 }
+
+footer{
+    background-color: #1F2937;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div{
+    color: white;
+    font-size: 20px;
+}
