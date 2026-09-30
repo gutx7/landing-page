@@ -11,6 +11,7 @@ body{
 .header{
     display: flex;
     height: 70px;
+    gap: 200px;
 }
 
 .header-logo-container{
@@ -37,8 +38,15 @@ body{
     width: 500px;
     justify-content: space-evenly;
     display: flex;
+    margin-right: 160px;
 }
 
 .header-link{
     display: inline-block;
+}
+
+.header-link a{
+    color: rgba(247, 247, 247, 0.671);
+    font-size: 20px;
+    text-decoration: none;
 }
