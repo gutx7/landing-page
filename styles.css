@@ -1,7 +1,6 @@
 body{
     font-family: 'Roboto';
     margin: 0;
-    margin-bottom: 500px;
 }
 
 .hero-section{
@@ -158,4 +157,11 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
+}
+
+.Adoption-section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
